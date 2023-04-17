@@ -35,3 +35,5 @@ const projects = [
     "deployed": "https://cozy-mancala.surge.sh/"
   },
 ]
+
+export {projects}
