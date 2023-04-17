@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal"
 export const Hero = () => {
 	return (
 		<>
-			<section>
+			<section className="min-h-screen pt-40">
 				<div className="text-center p-10 flex flex-col">
 					<div>
 						<Fade direction="left" cascade>

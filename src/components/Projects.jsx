@@ -3,12 +3,12 @@ import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
 	return (
-		<section>
+		<section id="projects">
 			<div className="text-center">
-				<h2 className="text-5xl py-2 text-emerald-500 font-normal">Projects</h2>
+				<h2 className="text-5xl py-2 text-emerald-500 font-semi-bold">Projects</h2>
 			</div>
       {projects.map(project => (
-        <ProjectCard {...project}/>
+        <ProjectCard {...project} key={project.title}/>
       ))}
 		</section>
 	)
