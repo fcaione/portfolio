@@ -9,7 +9,7 @@ export const Hero = () => {
 				<div className="text-center p-10 flex flex-col">
 					<div>
 						<Fade direction="left" cascade>
-							<h3 className="text-5xl py-2 font-light">
+							<h3 className="text-6xl py-2 font-normal">
 								Hey, I'm{" "}
 								<span className="text-emerald-500 font-normal">
 									Frederick Caione
@@ -23,10 +23,10 @@ export const Hero = () => {
 									href="https://www.linkedin.com/in/frederickcaione/"
 									target="_blank"
 								>
-									<BsLinkedin />
+									<BsLinkedin size={50} />
 								</a>
 								<a href="https://github.com/fcaione" target="_blank">
-									<BsGithub />
+									<BsGithub size={50} />
 								</a>
 							</div>
 						</Fade>

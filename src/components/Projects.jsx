@@ -5,11 +5,15 @@ const Projects = () => {
 	return (
 		<section id="projects">
 			<div className="text-center">
-				<h2 className="text-5xl py-2 text-emerald-500 font-semi-bold">Projects</h2>
+				<h2 className="text-6xl py-2 text-emerald-500 font-semibold">
+					Projects
+				</h2>
 			</div>
-      {projects.map(project => (
-        <ProjectCard {...project} key={project.title}/>
-      ))}
+			<div className="flex flex-col justify-center items-center">
+				{projects.map((project) => (
+					<ProjectCard {...project} key={project.title} />
+				))}
+			</div>
 		</section>
 	)
 }
