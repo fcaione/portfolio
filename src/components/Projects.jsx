@@ -5,7 +5,7 @@ const Projects = () => {
 	return (
 		<section id="projects">
 			<div className="text-center">
-				<h2 className="text-6xl py-2 text-emerald-500 font-semibold">
+				<h2 className="text-6xl py-2 text-black font-semibold">
 					Projects
 				</h2>
 			</div>

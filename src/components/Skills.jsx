@@ -3,9 +3,9 @@ import { languages, libraries, tools } from '../data/Skills'
 
 const Skills = () => {
 	return (
-		<section>
+		<section id='skills'>
 			<div className="text-center">
-				<h2 className="text-5xl py-2 text-emerald-500 font-semibold">Skills</h2>
+				<h2 className="text-5xl py-2 text-black font-semibold">Skills</h2>
 			</div>
 
 			<div className="flex flex-col lg:flex-row justify-center gap-5 py-16">
