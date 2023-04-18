@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
 				</div>
 			</div>
       <div>
-        <img className="w-[34rem]" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" />
+        <img className="w-[50rem]" src={props.pc_image} alt="" />
       </div>
 		</div>
 	)
