@@ -51,7 +51,7 @@ const libraries =
   },
   {
     reactIcon: <SiNodedotjs />,
-    name: "Nodedot.js"
+    name: "Node.js"
   },
   {
     reactIcon: <SiExpress/>,
