@@ -1,7 +1,7 @@
 const ProjectCard = (props) => {
 	return (
-		<div className="my-20 mx-12 flex flex-col lg:flex-row gap-24">
-			<div className="flex flex-col gap-4 w-[28rem]">
+		<div className="my-20 mx-12 flex flex-col lg:flex-row gap-24 ">
+			<div className="flex flex-col gap-4 w-[30rem]">
 				<h2 className="text-4xl font-semibold">{props.title}</h2>
 				<div className="flex gap-1.5 flex-wrap">
 					{props.tools.map((tool) => (
