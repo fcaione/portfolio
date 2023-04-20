@@ -25,7 +25,8 @@ export const Hero = () => {
 								>
 									<BsLinkedin size={50} />
 								</a>
-								<a href="https://github.com/fcaione" target="_blank">
+								<a href="https://github.com/fcaione" target="_blank"
+								>
 									<BsGithub size={50} />
 								</a>
 							</div>
