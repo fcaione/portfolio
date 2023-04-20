@@ -23,11 +23,12 @@ export const Hero = () => {
 									href="https://www.linkedin.com/in/frederickcaione/"
 									target="_blank"
 								>
-									<BsLinkedin size={50} />
+									<BsLinkedin size={50} 
+									className="hover:text-emerald-500"/>
 								</a>
 								<a href="https://github.com/fcaione" target="_blank"
 								>
-									<BsGithub size={50} />
+									<BsGithub size={50} className="hover:text-emerald-500"/>
 								</a>
 							</div>
 						</Fade>
