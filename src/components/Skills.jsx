@@ -3,7 +3,7 @@ import { languages, libraries, tools } from '../data/Skills'
 
 const Skills = () => {
 	return (
-		<section id='skills'>
+		<section id='skills' className='mt-20'>
 			<div className="text-center">
 				<h2 className="text-5xl py-2 text-black font-semibold">Skills</h2>
 			</div>
