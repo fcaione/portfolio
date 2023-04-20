@@ -9,7 +9,7 @@ const Projects = () => {
 					Projects
 				</h2>
 			</div>
-			<div className="flex flex-col justify-center items-center">
+			<div className="flex flex-col justify-center items-center p-10 gap-20">
 				{projects.map((project) => (
 					<ProjectCard {...project} key={project.title} />
 				))}
