@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com"
 import Swal from 'sweetalert2';
+import {AiOutlineMail, AiOutlinePhone} from "react-icons/ai"
 
 const ContactForm = () => {
 
@@ -34,24 +35,27 @@ const ContactForm = () => {
 	}
 
 	return (
-		<section className="bg-gray-100">
+		<section className="bg-emerald-500">
 			<div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
 				<div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
 					<div className="lg:col-span-2 lg:py-12">
-						<p className="max-w-xl text-lg">
-							At the same time, the fact that we are wholly owned and totally
-							independent from manufacturer and other group control gives you
-							confidence that we will only recommend what is right for you.
+						<p className="max-w-xl text-3xl">
+							Contact
+						</p>
+
+						<p className="max-w-xl text-lg mt-10">
+							Get in touch with me via email, phone, or use the form below
 						</p>
 
 						<div className="mt-8">
-							<a href="" className="text-2xl font-bold text-pink-600">
-								0151 475 4450
-							</a>
-
-							<address className="mt-2 not-italic">
-								282 Kevin Brook, Imogeneborough, CA 58517
-							</address>
+							<p className="mt-2 not-italic flex items-center gap-2">
+                <AiOutlineMail size={27}/>
+								frederickcaione@gmail.com
+							</p>
+							<p className="mt-2 not-italic flex items-center gap-2">
+                <AiOutlinePhone size={27}/>
+								+1 (914)-512-4396
+							</p>
 						</div>
 					</div>
 
@@ -67,6 +71,7 @@ const ContactForm = () => {
 									type="text"
 									id="name"
                   name="from_name"
+                  required
 								/>
 							</div>
 
@@ -81,6 +86,7 @@ const ContactForm = () => {
 										type="email"
 										id="email"
                     name="from_email"
+                    required
 									/>
 								</div>
 
@@ -109,6 +115,7 @@ const ContactForm = () => {
 									rows="8"
 									id="message"
                   name="message"
+                  required
 								></textarea>
 							</div>
 
@@ -117,7 +124,7 @@ const ContactForm = () => {
 									type="submit"
 									className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
 								>
-									Send Enquiry
+									Send Message
 								</button>
 							</div>
 						</form>
