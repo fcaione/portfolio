@@ -4,8 +4,8 @@ const About = () => {
 	return (
 		<section id="about" className="bg-sims bg-bottom mt-24">
 			<div className="backdrop-blur-[2px] w-full h-full">
-				<div className="flex flex-col lg:flex-row justify-center items-center gap-20 p-24">
-					<img className="w-80" src={pfp} alt="" />
+				<div className="flex flex-col lg:flex-row justify-center items-center gap-24 p-24">
+					<img className="w-80 drop-shadow-2xl" src={pfp} alt="" />
 					<div className="w-[47rem]">
 						<h3 className="text-center text-5xl">About</h3>
 						<p className="mt-10 text-md">
