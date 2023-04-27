@@ -3,10 +3,10 @@ import pfp from "../images/pfp.jpeg"
 const About = () => {
 	return (
 		<section id="about" className="bg-sims bg-bottom mt-24">
-			<div className="backdrop-blur-[2px] w-full h-full">
-				<div className="flex flex-col lg:flex-row justify-center items-center gap-24 p-24">
+			<div className="backdrop-blur-[2px]">
+				<div className="flex flex-col lg:flex-row justify-center items-center gap-24 py-24">
 					<img className="w-80 drop-shadow-2xl" src={pfp} alt="" />
-					<div className="w-[47rem]">
+					<div className="max-w-[47rem] mx-10">
 						<h3 className="text-center text-5xl">About</h3>
 						<p className="mt-10 text-md">
 							As a software engineer, I am passionate about using technology to
