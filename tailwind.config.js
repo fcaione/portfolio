@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'sims': "url('/src/images/sims8.png')"
+      }
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 }
