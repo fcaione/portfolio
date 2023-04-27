@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'sims': "url('/src/images/sims8.png')"
+        'sims': "url('/src/images/sims.png')"
       }
     },
   },
