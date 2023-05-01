@@ -5,7 +5,6 @@ import {AiOutlineMail, AiOutlinePhone} from "react-icons/ai"
 const ContactForm = () => {
 
 	const handleOnSubmit = (e) => {
-    
 		e.preventDefault()
 		emailjs
 			.sendForm(

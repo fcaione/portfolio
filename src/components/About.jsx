@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-sims bg-bottom bg-no-repeat mt-24 w-screen bg-cover"
+      className="bg-sims bg-bottom bg-no-repeat mt-24 w-screen"
     >
       <div className="backdrop-blur-[2px]">
         <div className="flex flex-col flex-wrap lg:flex-row justify-center items-center gap-24 py-24">
